@@ -4,7 +4,7 @@ Projeto ESUP
 ## Mais Etiquetas e Rótulos
 
 👩‍💻 Desenvolvido por: Vanessa Silva  
-📚 Curso: Tecnologia da Informação  
+📚 Curso: Sistemas de Informação  
 🎯 Projeto Extensionista Acadêmico  
 
 ---
