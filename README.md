@@ -70,31 +70,19 @@ Extensões recomendadas:
 ## 2️⃣ Instalar o Git
 Baixe em: https://git-scm.com/
 
-Verifique se está instalado:
-git --version
-
 ---
 
 ## 3️⃣ Instalar o Python
 Baixe em: https://www.python.org/
 
-Verifique:
-python --version
-
 ---
 
 ## 4️⃣ Clonar o Repositório
 git clone URL_DO_REPOSITORIO
-cd nome-do-repositorio
 
 ---
 
 ## 5️⃣ Rodar o Projeto
-
-Para abrir o site:
-
-- Clique com botão direito no `index.html`
-- Selecione "Open with Live Server"
 
 ---
 
