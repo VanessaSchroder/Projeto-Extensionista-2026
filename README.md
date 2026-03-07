@@ -1,42 +1,42 @@
-# Projeto Extensionista 2026
-Projeto ESUP
-# 🌟 Projeto Extensionista — Site Institucional  
+# 2026 Extension Project
+ESUP Project
+# 🌟 Extension Project — Institutional Website  
 ## Mais Etiquetas e Rótulos
 
-👩‍💻 Desenvolvido por: Vanessa Silva  
-📚 Curso: Tecnologia da Informação  
-🎯 Projeto Extensionista Acadêmico  
+👩‍💻 Developed by: Vanessa Silva  
+📚 Course: Information Systems  
+🎯 Academic Extension Project  
 
 ---
 
-# 📌 Sobre o Projeto
+# 📌 About the Project
 
-Este projeto consiste no desenvolvimento completo do site institucional da empresa **Mais Etiquetas e Rótulos**, com o objetivo de fortalecer a presença digital da marca, apresentar seus produtos e facilitar o contato com clientes.
+This project consists of the complete development of the institutional website for the company **Mais Etiquetas e Rótulos**, aiming to strengthen the brand's digital presence, showcase its products, and facilitate customer contact.
 
-O site será desenvolvido ao longo do semestre utilizando:
+The website will be developed throughout the semester using:
 
 - HTML5
 - CSS3
 - JavaScript
 - Python
-- Inteligência Artificial
+- Artificial Intelligence
 - Chatbot
-- Ferramentas modernas de desenvolvimento web
+- Modern web development tools
 
 ---
 
-# 🎯 Objetivos do Projeto
+# 🎯 Project Objectives
 
-- Criar um site profissional e responsivo
-- Aplicar conceitos de front-end e back-end
-- Integrar automações com Python
-- Implementar recursos de Inteligência Artificial
-- Desenvolver um chatbot para atendimento ao cliente
-- Utilizar boas práticas de versionamento com Git e GitHub
+- Create a professional and responsive website
+- Apply front-end and back-end concepts
+- Integrate automations with Python
+- Implement Artificial Intelligence features
+- Develop a chatbot for customer service
+- Use good versioning practices with Git and GitHub
 
 ---
 
-# 🛠️ Tecnologias Utilizadas
+# 🛠️ Technologies Used
 
 ## 🔹 Front-end
 - HTML5
@@ -46,20 +46,20 @@ O site será desenvolvido ao longo do semestre utilizando:
 ## 🔹 Back-end
 - Python
 
-## 🔹 Outros Recursos
-- IA para automação e atendimento
+## 🔹 Other Features
+- AI for automation and service
 - Chatbot
-- Git e GitHub
+- Git and GitHub
 - VS Code
 
 ---
 
-# 💻 Como Configurar o Ambiente de Desenvolvimento
+# 💻 How to Set Up the Development Environment
 
-## 1️⃣ Instalar o VS Code
-Baixe em: https://code.visualstudio.com/
+## 1️⃣ Install VS Code
+Download from: https://code.visualstudio.com/
 
-Extensões recomendadas:
+Recommended extensions:
 - Live Server
 - Python
 - Prettier
@@ -67,44 +67,32 @@ Extensões recomendadas:
 
 ---
 
-## 2️⃣ Instalar o Git
-Baixe em: https://git-scm.com/
-
-Verifique se está instalado:
-git --version
+## 2️⃣ Install Git
+Download from: https://git-scm.com/
 
 ---
 
-## 3️⃣ Instalar o Python
-Baixe em: https://www.python.org/
-
-Verifique:
-python --version
+## 3️⃣ Install Python
+Download from: https://www.python.org/
 
 ---
 
-## 4️⃣ Clonar o Repositório
-git clone URL_DO_REPOSITORIO
-cd nome-do-repositorio
+## 4️⃣ Clone the Repository
+git clone REPOSITORY_URL
 
 ---
 
-## 5️⃣ Rodar o Projeto
-
-Para abrir o site:
-
-- Clique com botão direito no `index.html`
-- Selecione "Open with Live Server"
+## 5️⃣ Run the Project
 
 ---
 
-# 📚 Base de Estudos
+# 📚 Study Resources
 
-Durante o desenvolvimento, serão aplicados conhecimentos dos seguintes cursos:
+During development, knowledge from the following courses will be applied:
 
 ## 🎓 Curso em Vídeo — Professor Gustavo Guanabara
 
-- HTML5 e CSS3
+- HTML5 and CSS3
 - JavaScript
 - Python
 
@@ -112,49 +100,49 @@ Link: https://www.cursoemvideo.com/
 
 ---
 
-# 📂 Estrutura do Projeto
+# 📂 Project Structure
 
 
 ---
 
-# 🚀 Funcionalidades Previstas
+# 🚀 Planned Features
 
-- Página institucional
-- Catálogo de produtos
-- Formulário de contato
-- Integração com WhatsApp
-- Sistema de orçamento
-- Chatbot inteligente
-- Área administrativa futura
-- SEO básico
-
----
-
-# 🧠 Implementações Futuras
-
-- Integração com banco de dados
-- Sistema de login
-- Dashboard administrativo
-- Análise de dados de visitantes
-- Automação de respostas
+- Institutional page
+- Product catalog
+- Contact form
+- WhatsApp integration
+- Quotation system
+- Intelligent chatbot
+- Future admin area
+- Basic SEO
 
 ---
 
-# 🔐 Controle de Versão
+# 🧠 Future Implementations
 
-Fluxo utilizado:
+- Database integration
+- Login system
+- Administrative dashboard
+- Visitor data analysis
+- Response automation
+
+---
+
+# 🔐 Version Control
+
+Workflow used:
 git add .
-git commit -m "descrição"
+git commit -m "description"
 git push
 
 
 ---
 
-# 📌 Considerações Finais
+# 📌 Final Considerations
 
-Este projeto tem caráter acadêmico e profissional, visando aplicar conhecimentos práticos de desenvolvimento web e tecnologia da informação.
+This project has both academic and professional purposes, aiming to apply practical knowledge of web development and information technology.
 
-O objetivo final é entregar um site funcional, moderno, seguro e alinhado às necessidades da empresa.
+The final goal is to deliver a functional, modern, secure website aligned with the company's needs.
 
 ---
 
