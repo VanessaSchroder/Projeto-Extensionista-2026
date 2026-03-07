@@ -1,29 +1,41 @@
+<!-- Define a versão do HTML (HTML5) -->
 <!DOCTYPE html>
+<!-- Define o idioma principal da página para os motores de busca e leitores de tela -->
 <html lang="pt-BR">
 
 <head>
+    <!-- Define a codificação de caracteres (UTF-8 suporta acentos) -->
     <meta charset="UTF-8">
+    <!-- Garante que o site seja responsivo (ajuste ao tamanho da tela do celular) -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título que aparece na aba do navegador -->
     <title>Mais Etiquetas e Rótulos | Soluções em Rotulagem</title>
-    <!-- Montserrat & Open Sans -->
+
+    <!-- Importação de fontes externas do Google Fonts (Montserrat e Open Sans) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;600;700&display=swap"
         rel="stylesheet">
-    <!-- Font Awesome  biblioteca de ícones -->
+
+    <!-- Importação da Font Awesome: uma biblioteca de ícones para botões e menus -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Conexão com o arquivo CSS personalizado onde estão as cores e estilos -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- Header -->
+    <!-- Cabeçalho (Header): Contém o logotipo e o menu de navegação superior -->
     <header class="header">
         <div class="container">
+            <!-- Logotipo da empresa com link para o topo da página -->
             <a href="#home" class="logo">
                 <img src="img/imagem1.jpg" alt="Mais Etiquetas">
             </a>
+
+            <!-- Menu de Navegação (NAV): Links para as seções da página -->
             <nav class="nav">
                 <ul class="nav-list">
                     <li><a href="#home">Home</a></li>
@@ -35,6 +47,8 @@
                     <li><a href="#contato">Trabalhe Conosco</a></li>
                 </ul>
             </nav>
+
+            <!-- Botão de Chamada para Ação (CTA) no cabeçalho -->
             <div class="header-cta">
                 <a href="https://wa.me/5562985862783" class="btn btn-primary">VAGAS</a>
             </div>
@@ -42,27 +56,33 @@
     </header>
 
     <main>
-        <!-- Hero Section -->
+        <!-- Seção Hero: A primeira parte que o usuário vê (apresentação principal) -->
         <section id="home" class="hero">
             <div class="container hero-content">
+                <!-- Título principal com efeito de cor gradual (text-gradient) e animação (reveal) -->
                 <h1 class="reveal">Qualidade que <span class="text-gradient">Transforma</span> seus Produtos</h1>
                 <p class="reveal">Somos especialistas em etiquetas e rótulos personalizados, ribbons e assistência
                     técnica para impressoras térmicas.</p>
+
+                <!-- Botões de ação principais -->
                 <div class="hero-actions reveal">
                     <a href="#produtos" class="btn btn-primary">Ver Portfólio</a>
                     <a href="https://wa.me/5562985862783" class="btn btn-outline">Falar com Especialista</a>
                 </div>
             </div>
+            <!-- Sobreposição escura para garantir que o texto seja legível sobre a imagem de fundo -->
             <div class="hero-overlay"></div>
         </section>
 
-        <!-- Como Funciona -->
+        <!-- Seção 'Como Funciona': Explica o processo da empresa -->
         <section id="como-funciona" class="section">
             <div class="container">
                 <div class="section-title reveal">
                     <h2>Como Funciona</h2>
                 </div>
+                <!-- Grade de 3 colunas (grid-3) para organizar os itens uniformemente -->
                 <div class="grid-3">
+                    <!-- Cada 'card' representa um passo do processo -->
                     <div class="card reveal">
                         <i class="fas fa-comments fa-3x text-gradient"></i>
                         <h3>Consultoria</h3>
@@ -82,13 +102,14 @@
             </div>
         </section>
 
-        <!-- Benefícios -->
+        <!-- Seção 'Benefícios': Destaques e diferenciais competitivos -->
         <section id="beneficios" class="section bg-light">
             <div class="container">
                 <div class="section-title reveal">
                     <h2>Nossos Benefícios</h2>
                 </div>
                 <div class="grid-3">
+                    <!-- Cada card destaca um benefício específico da empresa -->
                     <div class="card reveal">
                         <i class="fas fa-truck-fast fa-3x text-gradient"></i>
                         <h3>Entrega em Todo o Brasil</h3>
@@ -108,7 +129,7 @@
             </div>
         </section>
 
-        <!-- Produtos (Using User Media) -->
+        <!-- Seção 'Produtos': Vitrine de produtos com imagens e descrições -->
         <section id="produtos" class="section">
             <div class="container">
                 <div class="section-title reveal">
@@ -117,6 +138,7 @@
                 <div class="grid-3">
                     <!-- Frigoríficos -->
                     <div class="card product-card reveal">
+                        <!-- Container da imagem do produto com efeito de zoom no CSS -->
                         <div class="product-img">
                             <img src="img/imagem3.png" alt="Rótulos Frigoríficos">
                         </div>
@@ -179,12 +201,13 @@
             </div>
         </section>
 
-        <!-- Depoimentos -->
+        <!-- Seção de Depoimentos: Prova social para passar confiança -->
         <section id="depoimentos" class="section bg-light">
             <div class="container">
                 <div class="section-title reveal">
                     <h2>O que nossos clientes dizem</h2>
                 </div>
+                <!-- Grid de depoimentos -->
                 <div class="grid-3">
                     <div class="card reveal">
                         <p>"Excelente qualidade nos rótulos de mel. Resistência impecável."</p>
@@ -202,12 +225,13 @@
             </div>
         </section>
 
-        <!-- FAQ -->
+        <!-- Seção FAQ: Perguntas frequentes para tirar dúvidas rápidas -->
         <section id="duvidas" class="section">
             <div class="container reveal">
                 <div class="section-title">
                     <h2>Dúvidas Frequentes</h2>
                 </div>
+                <!-- Container centralizado para as perguntas -->
                 <div class="faq-container" style="max-width: 800px; margin: 0 auto;">
                     <div class="card reveal" style="margin-bottom: 20px;">
                         <h3>Vocês entregam em todo o Brasil?</h3>
@@ -222,18 +246,21 @@
             </div>
         </section>
 
-        <!-- Contact Section -->
+        <!-- Seção de Contato: Formulário para leads e informações de contato direto -->
         <section id="contato" class="section bg-light">
             <div class="container">
+                <!-- Grid de 2 colunas: Informações à esquerda e Formulário à direita -->
                 <div class="grid-2">
                     <div class="contact-info reveal">
                         <h2>Fale Conosco</h2>
                         <p>Sua marca merece o melhor acabamento. Vamos conversar sobre seu projeto?</p>
+                        <!-- Lista de ícones com links de contato -->
                         <ul class="footer-links" style="margin-top: 30px; font-size: 1.1rem;">
                             <li><i class="fas fa-phone"></i> (62) 98586-2783</li>
                             <li><i class="fas fa-envelope"></i> maxcomercial1@gmail.com</li>
                         </ul>
                     </div>
+                    <!-- Card contendo o formulário de contato -->
                     <div class="card reveal">
                         <form id="contactForm">
                             <div class="form-group" style="margin-bottom: 15px;">
@@ -246,6 +273,7 @@
                             </div>
                             <textarea placeholder="Como podemos ajudar?"
                                 style="width: 100%; padding: 15px; border-radius: 10px; border: 1px solid #ddd; height: 120px;"></textarea>
+                            <!-- Botão de submissão do formulário -->
                             <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 20px;">Enviar
                                 Solicitação</button>
                         </form>
@@ -255,15 +283,17 @@
         </section>
     </main>
 
-    <!-- Footer -->
+    <!-- Rodapé (Footer): Contém informações finais, links e direitos autorais -->
     <footer class="footer">
         <div class="container">
             <div class="footer-grid">
+                <!-- Coluna 1: Logo do rodapé e frase de efeito -->
                 <div>
                     <img src="img/imagem9.jpg" alt="Logo Footer"
                         style="height: 60px; margin-bottom: 20px; filter: brightness(0) invert(1);">
                     <p>Qualidade industrial e design premium em soluções de identificação e rotulagem.</p>
                 </div>
+                <!-- Colunas 2 e 3: Listas de links rápidos para navegação facilitada -->
                 <div>
                     <h4>Links Rápidos</h4>
                     <ul class="footer-links">
@@ -280,19 +310,21 @@
                         <li><a href="#">Privacidade</a></li>
                     </ul>
                 </div>
+                <!-- Coluna 4: Informação técnica/legal sobre a operação do site -->
                 <div>
                     <h4>Representante</h4>
                     <p style="font-size: 0.8rem; opacity: 0.7;">Este site é operado em parceria com Representantes
                         Autorizados (Inspirado em Transforme Consórcios).</p>
                 </div>
             </div>
+            <!-- Linha final com o copyright (direitos autorais) -->
             <div style="text-align: center; padding-top: 30px; border-top: 1px solid rgba(255,255,255,0.1);">
                 <p>&copy; 2024 Mais Etiquetas e Rótulos. Todos os direitos reservados.</p>
             </div>
         </div>
     </footer>
 
-    <!-- Privacy Banner -->
+    <!-- Barra de Privacidade (Cookies): Exibida para conformidade com a LGPD -->
     <div id="privacyBar" class="privacy-bar">
         <div class="container privacy-content">
             <p class="privacy-text">
@@ -304,11 +336,13 @@
         </div>
     </div>
 
-    <!-- Assistant Widget -->
+    <!-- Widget do Assistente Virtual: Ícone flutuante e janela de chat controlada via JS -->
     <div class="assistant-widget">
+        <!-- Gatilho (Ícone de Robô) -->
         <div class="assistant-trigger" id="assistantTrigger">
             <i class="fas fa-robot"></i>
         </div>
+        <!-- Janela de Conversa (escondida por padrão display:none) -->
         <div class="assistant-window" id="assistantWindow">
             <div class="assistant-header">
                 <img src="https://ui-avatars.com/api/?name=Assistente+Virtual&background=001A4D&color=fff"
@@ -317,6 +351,7 @@
                     <h4>Assistente Virtual</h4>
                     <span>Agente Online</span>
                 </div>
+                <!-- Botão de fechar a janela -->
                 <button id="closeAssistant"
                     style="position: absolute; right: 20px; background: none; border: none; color: white; cursor: pointer; font-size: 1.5rem;">&times;</button>
             </div>
@@ -327,12 +362,14 @@
                 </p>
             </div>
             <div class="assistant-footer">
+                <!-- Link direto para atendimento humano via WhatsApp -->
                 <a href="https://wa.me/5562985862783" class="btn btn-primary" style="width: 100%; padding: 10px;">Falar
                     via WhatsApp</a>
             </div>
         </div>
     </div>
 
+    <!-- Inclusão do código JavaScript para dar interatividade à página -->
     <script src="script.js"></script>
 </body>
 
